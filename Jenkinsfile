@@ -11,6 +11,7 @@ pipeline {
         stage('Build') { 
             steps {
                 sh 'echo Hello Word to Sample Java App'
+                sh 'cat README.md'
                 //sh 'mvn -B -DskipTests clean package' 
             }
         }
